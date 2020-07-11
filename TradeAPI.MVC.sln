@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeAPI", "TradeAPI\TradeAPI.csproj", "{04487BFB-2096-41BB-8E4E-ADB2BA55462C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.API", "TradeAPI\Trade.API.csproj", "{04487BFB-2096-41BB-8E4E-ADB2BA55462C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.Data", "Trade.Data\Trade.Data.csproj", "{01927179-6746-47C6-8F66-FB9ABFB92941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trade.Business", "Trade.Business\Trade.Business.csproj", "{5D3681C7-1A6E-4DB2-88DB-3CF713487771}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{04487BFB-2096-41BB-8E4E-ADB2BA55462C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04487BFB-2096-41BB-8E4E-ADB2BA55462C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04487BFB-2096-41BB-8E4E-ADB2BA55462C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01927179-6746-47C6-8F66-FB9ABFB92941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01927179-6746-47C6-8F66-FB9ABFB92941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01927179-6746-47C6-8F66-FB9ABFB92941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01927179-6746-47C6-8F66-FB9ABFB92941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3681C7-1A6E-4DB2-88DB-3CF713487771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3681C7-1A6E-4DB2-88DB-3CF713487771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3681C7-1A6E-4DB2-88DB-3CF713487771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3681C7-1A6E-4DB2-88DB-3CF713487771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
